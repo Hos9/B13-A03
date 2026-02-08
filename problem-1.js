@@ -1,8 +1,5 @@
 /*function signature/sample */
 function newPrice(currentPrice, discount) {
-  //   console.log(typeof currentPrice);
-  //   console.log(typeof discount);
-
   if (
     typeof currentPrice !== "number" ||
     typeof discount !== "number" ||
